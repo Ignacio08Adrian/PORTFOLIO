@@ -1,0 +1,13 @@
+.flexs {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.flex {
+  margin: 1rem;
+  padding: 1rem;
+}
+
+.blanc {
+  color: white;
+}

@@ -1,0 +1,101 @@
+body {
+  margin: 0;
+}
+
+.bgimg-1 {
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url("https://images4.alphacoders.com/936/936378.jpg");
+  min-height: 100vh;
+  position: relative;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.bgimg-2 {
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url("paisaje-digital-en-atardecer_3840x2160_xtrafondos.com.jpg");
+  min-height: 100vh;
+  position: relative;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.caption {
+  position: absolute;
+  left: 0;
+  top: 50%;
+  width: 100%;
+  text-align: center;
+  color: black;
+}
+
+.special1 {
+  color: white;
+  padding: 18px;
+  font-size: 25px;
+}
+.special2 {
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url("https://png.pngtree.com/thumb_back/fh260/background/20220215/pngtree-blue-space-nebula-background-image_923334.jpg");
+
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: white;
+  padding: 18px;
+  letter-spacing: 1px;
+}
+
+.secciones {
+  background-color: blue;
+  height: 200px;
+  width: 100%;
+  display: block;
+  align-items: center;
+  justify-content: center;
+}
+
+.secciones4 {
+  background-color: blue;
+  height: 200px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.texto {
+  font-family: "Noto Serif Vithkuqi", serif !important;
+}
+
+.rem {
+  width: 12rem;
+  height: 12rem;
+  padding: 2rem;
+}
+
+.grand {
+  font-size: 1.4rem;
+}
+
+@media (max-width: 700px) {
+  .rem {
+    width: 0.1rem;
+    height: 0.1rem;
+    padding: 0rem;
+  }
+}
+
+@media (max-width: 700px) {
+  .secciones4 {
+    background-color: blue;
+    height: 200px;
+    width: 100%;
+    display: block;
+    align-items: center;
+    justify-content: center;
+  }
+}

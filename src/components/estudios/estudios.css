@@ -1,0 +1,22 @@
+.area-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit minmax(150px 1fr));
+  gap: 2rem;
+}
+
+.flexs {
+  display: flex;
+  margin-right: 2rem;
+  margin-left: 2rem;
+  padding-top: 1rem;
+}
+
+.center {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.grands {
+  font-size: 1.3rem;
+}
