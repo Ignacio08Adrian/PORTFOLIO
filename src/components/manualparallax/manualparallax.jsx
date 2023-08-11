@@ -50,7 +50,7 @@ export function ManualParallax() {
       <div className="bgimg-2">
         <Estudios />
       </div>
-      <div className="secciones">Sobre Mi:</div>
+      <div className="secciones4">Sobre Mi:</div>
       <div className="bgimg-3">
         <Proyectos />
       </div>
