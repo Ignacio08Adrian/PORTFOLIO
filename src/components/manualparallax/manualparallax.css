@@ -67,10 +67,19 @@ body {
 }
 
 .secciones {
-  background-color: blue;
+  background-color: blueviolet;
   height: 200px;
   width: 100%;
   display: block;
+  align-items: center;
+  justify-content: center;
+}
+
+.secciones2 {
+  background-color: black;
+  height: 200px;
+  width: 100%;
+  display: flex;
   align-items: center;
   justify-content: center;
 }
@@ -124,4 +133,12 @@ body {
     align-items: center;
     justify-content: center;
   }
+}
+
+.flexible {
+  display: flex;
+}
+
+.bloke {
+  display: block;
 }
