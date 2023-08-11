@@ -2,6 +2,12 @@ body {
   margin: 0;
 }
 
+.full-color {
+  color: white;
+  text-shadow: -2px -2px 0 black, 1px -1px 0 black, -1px 1px 0 black,
+    1px 1px 0 black;
+}
+
 .bgimg-1 {
   background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
     url("https://images4.alphacoders.com/936/936378.jpg");
@@ -16,6 +22,17 @@ body {
 .bgimg-2 {
   background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
     url("paisaje-digital-en-atardecer_3840x2160_xtrafondos.com.jpg");
+  min-height: 100vh;
+  position: relative;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.bgimg-3 {
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url("https://wallpaperset.com/w/full/6/6/3/521631.jpg");
   min-height: 100vh;
   position: relative;
   background-attachment: fixed;
@@ -79,6 +96,15 @@ body {
 
 .grand {
   font-size: 1.4rem;
+}
+
+.shadows {
+  text-shadow: -1px -1px 0 blue, -1px 1px 0 blue, 1px -1px 0 blue,
+    1px 1px 0 blue;
+}
+
+.lights {
+  text-shadow: -1px -1px 0 red, -1px 1px 0 red, 1px -1px 0 red, 1px 1px 0 red;
 }
 
 @media (max-width: 700px) {

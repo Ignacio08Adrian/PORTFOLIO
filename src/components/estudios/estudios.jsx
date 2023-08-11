@@ -16,16 +16,16 @@ function Estudios() {
         <Typography className="full-color jello-vertical" variant="h3">
           Estudios
         </Typography>
-        <Typography variant="h5" className="blanc">
+        <Typography variant="h5" color="white">
           Aqui se encuentran mis estudios:
         </Typography>
         <div className="center">
-          <Card sx={{ minWidth: 105, maxWidth: 345 }}>
+          <Card className="backBonito" sx={{ minWidth: 105, maxWidth: 345 }}>
             <CardContent>
-              <Typography variant="h5" component="div">
+              <Typography variant="h5" color="white" component="div">
                 Primario Y secundario
               </Typography>
-              <Typography variant="subtitule">
+              <Typography variant="subtitule" color="white">
                 primario en la escuela monseñor Tomas Juan solari y secundario
                 orientado a bachillerato en el colegio gustavo adolfo becquer
               </Typography>
@@ -33,7 +33,7 @@ function Estudios() {
           </Card>
         </div>
         <div className="area-grid flexs center">
-          <Card sx={{ maxWidth: 345 }}>
+          <Card className="backBonito" sx={{ maxWidth: 345 }}>
             <CardMedia
               component="img"
               alt="Logo coderhouse, academia de cursos online para programador y otras area"
@@ -41,10 +41,15 @@ function Estudios() {
               image="https://res.cloudinary.com/hdsqazxtw/image/upload/v1642799651/WWW/Group_1.jpg"
             />
             <CardContent>
-              <Typography gutterBottom variant="h5" component="div">
+              <Typography
+                gutterBottom
+                variant="h5"
+                color="white"
+                component="div"
+              >
                 Desarrollo web
               </Typography>
-              <Typography variant="subtitule">
+              <Typography variant="subtitule" color="white">
                 Este fue mi primer curso en coder house donde abarcamos html,
                 css, sass, boostrap y el uso de Github
               </Typography>
@@ -56,18 +61,17 @@ function Estudios() {
               <Button size="small">Proyecto del curso</Button>
             </CardActions>
           </Card>
-          <Card sx={{ maxWidth: 345 }}>
-            <CardMedia
-              component="img"
-              alt="Logo coderhouse, academia de cursos online para programador y otras area"
-              height="140"
-              image="https://res.cloudinary.com/hdsqazxtw/image/upload/v1642799651/WWW/Group_1.jpg"
-            />
+          <Card className="backestudio" sx={{ maxWidth: 345 }}>
             <CardContent>
-              <Typography gutterBottom variant="h5" component="div">
+              <Typography
+                gutterBottom
+                variant="h5"
+                color="white"
+                component="div"
+              >
                 Javascript
               </Typography>
-              <Typography variant="subtitule">
+              <Typography variant="subtitule" color="white">
                 en este curso aprendi principalmente el uso de Javascript, como
                 manejar array, filtros y otras herramientas
               </Typography>
@@ -81,18 +85,17 @@ function Estudios() {
               </a>
             </CardActions>
           </Card>
-          <Card sx={{ maxWidth: 345 }}>
-            <CardMedia
-              component="img"
-              alt="Logo coderhouse, academia de cursos online para programador y otras area"
-              height="140"
-              image="https://res.cloudinary.com/hdsqazxtw/image/upload/v1642799651/WWW/Group_1.jpg"
-            />
+          <Card className="backestudio" sx={{ maxWidth: 345 }}>
             <CardContent>
-              <Typography gutterBottom variant="h5" component="div">
+              <Typography
+                gutterBottom
+                variant="h5"
+                color="white"
+                component="div"
+              >
                 React
               </Typography>
-              <Typography variant="subtitule">
+              <Typography variant="subtitule" color="white">
                 En este curso me enseñaron principalmente sobre React,
                 React-Router-Dom, Vite y Material UI
               </Typography>
