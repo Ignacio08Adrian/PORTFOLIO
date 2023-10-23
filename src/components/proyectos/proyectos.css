@@ -7,3 +7,14 @@
   background-repeat: no-repeat;
   background-size: cover;
 }
+
+@media (max-width: 700px) {
+  .backproyecto {
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+      url("https://images4.alphacoders.com/947/947776.jpg");
+    position: relative;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+}

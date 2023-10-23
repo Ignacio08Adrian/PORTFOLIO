@@ -142,6 +142,28 @@
     background-repeat: no-repeat;
     background-size: cover;
   }
+
+  .secciones {
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+      url("https://i.pinimg.com/originals/26/58/4f/26584f02daaa24da0ee118f8e62c1eed.jpg");
+    position: relative;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 100vh;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .backproyecto {
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+      url("https://images4.alphacoders.com/947/947776.jpg");
+    position: relative;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  
 }
 @media (max-width: 700px) {
   .rem {

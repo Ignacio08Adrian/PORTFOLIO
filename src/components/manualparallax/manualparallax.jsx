@@ -21,10 +21,10 @@ export function ManualParallax() {
             <li className="underline-hover"><a className="blanc" href="#proyectos">Proyectos</a></li>
           </ul>
         </nav>
-        <Typography className="texto" color="white" variant="h2">
+        <Typography className="texto" color="white" variant="h3">
           SEAN BIENVENIDOS A MI:
         </Typography>
-        <Typography className="texto neon-text" color="white" variant="h1">
+        <Typography className="texto neon-text" color="white" component="h1" variant="h2">
           PORTFOLIO
         </Typography>
         <Typography className="texto" color="white" variant="h5" mt={7}>
