@@ -13,7 +13,7 @@ function Estudios() {
   return (
     <>
       <div>
-        <Typography className="full-color jello-vertical" variant="h3">
+        <Typography className="neon-text" variant="h3">
           Estudios
         </Typography>
         <Typography variant="h5" color="white">
@@ -33,13 +33,7 @@ function Estudios() {
           </Card>
         </div>
         <div className="area-grid flexs center">
-          <Card className="backBonito" sx={{ maxWidth: 345 }}>
-            <CardMedia
-              component="img"
-              alt="Logo coderhouse, academia de cursos online para programador y otras area"
-              height="140"
-              image="https://res.cloudinary.com/hdsqazxtw/image/upload/v1642799651/WWW/Group_1.jpg"
-            />
+          <Card className="backestudio" sx={{ maxWidth: 345 }}>
             <CardContent>
               <Typography
                 gutterBottom
@@ -58,7 +52,12 @@ function Estudios() {
               <a href="https://i.imgur.com/wnpUIzg.png" target="_blank">
                 <Button size="big">Ver certificado</Button>
               </a>
-              <Button size="small">Proyecto del curso</Button>
+              <a
+                href="https://ignacioperez33110-la-caldera-gamer.netlify.app/"
+                target="_blank"
+              >
+                <Button size="small">Proyecto del curso</Button>
+              </a>
             </CardActions>
           </Card>
           <Card className="backestudio" sx={{ maxWidth: 345 }}>
@@ -104,7 +103,12 @@ function Estudios() {
               <a href="https://i.imgur.com/3XqRYEX.png" target="_blank">
                 <Button size="big">Ver certificado</Button>
               </a>
-              <Button size="small">Proyecto del curso</Button>
+              <a
+                href="https://entrega-react-ignacio.vercel.app/"
+                target="_blank"
+              >
+                <Button size="small">Proyecto del curso</Button>
+              </a>
             </CardActions>
           </Card>
         </div>

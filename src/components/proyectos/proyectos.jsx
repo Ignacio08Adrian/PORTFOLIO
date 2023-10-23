@@ -12,7 +12,7 @@ function Proyectos() {
   return (
     <>
       <div>
-        <Typography className="full-color" variant="h3">
+        <Typography className="neon-text" variant="h3">
           Proyectos
         </Typography>
         <Typography color="white">
@@ -35,8 +35,18 @@ function Proyectos() {
               </Typography>
             </CardContent>
             <CardActions>
-              <Button size="small">Ver proyecto</Button>
-              <Button size="small">Ver codigo del proyecto</Button>
+              <a
+                href="https://ignacioperez33110-la-caldera-gamer.netlify.app/"
+                target="_blank"
+              >
+                <Button size="small">Ver proyecto</Button>
+              </a>
+              <a
+                href="https://github.com/Ignacio08Adrian/TP-33010"
+                target="_blank"
+              >
+                <Button size="small">Ver codigo del proyecto</Button>
+              </a>
             </CardActions>
           </Card>
           <Card className="backproyecto" sx={{ maxWidth: 345 }}>
@@ -56,8 +66,15 @@ function Proyectos() {
               </Typography>
             </CardContent>
             <CardActions>
-              <Button size="small">Ver proyecto</Button>
-              <Button size="small">Ver codigo del proyecto</Button>
+              <a href="https://enproceso.vercel.app/" target="_blank">
+                <Button size="small">Ver proyecto</Button>
+              </a>
+              <a
+                href="https://github.com/Ignacio08Adrian/paginabasica"
+                target="_blank"
+              >
+                <Button size="small">Ver codigo del proyecto</Button>
+              </a>
             </CardActions>
           </Card>
           <Card className="backproyecto " sx={{ maxWidth: 345 }}>
@@ -76,8 +93,15 @@ function Proyectos() {
               </Typography>
             </CardContent>
             <CardActions>
-              <Button size="small">Ver proyecto</Button>
-              <Button size="small">Ver codigo del proyecto</Button>
+              <a href="https://jsproyect.vercel.app/" target="_blank">
+                <Button size="small">Ver proyecto</Button>
+              </a>
+              <a
+                href="https://github.com/Ignacio08Adrian/JSproyect"
+                target="_blank"
+              >
+                <Button size="small">Ver codigo del proyecto</Button>
+              </a>
             </CardActions>
           </Card>
           <Card className="backproyecto" sx={{ maxWidth: 345 }}>
@@ -96,8 +120,18 @@ function Proyectos() {
               </Typography>
             </CardContent>
             <CardActions>
-              <Button size="small">Ver proyecto</Button>
-              <Button size="small">Ver codigo del proyecto</Button>
+              <a
+                href="https://entrega-react-ignacio.vercel.app/"
+                target="_blank"
+              >
+                <Button size="small">Ver proyecto</Button>
+              </a>
+              <a
+                href="https://github.com/Ignacio08Adrian/PreentregaReactIgnacio51180"
+                target="_blank"
+              >
+                <Button size="small">Ver codigo del proyecto</Button>
+              </a>
             </CardActions>
           </Card>
         </div>

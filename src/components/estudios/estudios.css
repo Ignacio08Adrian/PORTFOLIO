@@ -22,11 +22,12 @@
 }
 
 .backestudio {
-  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+  background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
     url("https://res.cloudinary.com/hdsqazxtw/image/upload/v1642799651/WWW/Group_1.jpg");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
+  margin-bottom: 15px;
 }
 
 .backBonito {

@@ -2,55 +2,60 @@ import React from "react";
 import "./manualparallax.css";
 import Habilidades from "../habilidades/habilidades";
 import Estudios from "../estudios/estudios";
-import { Typography } from "@mui/material";
+import { Box, Button, Typography } from "@mui/material";
 import Proyectos from "../proyectos/proyectos";
+import WhatsAppIcon from "@mui/icons-material/WhatsApp";
+import LinkedInIcon from '@mui/icons-material/LinkedIn';
+import GitHubIcon from '@mui/icons-material/GitHub';
+import AccountBoxIcon from '@mui/icons-material/AccountBox';
+import BackToTopButton from "../ButtonToTop/BackToTopButton";
 
 export function ManualParallax() {
   return (
     <div>
       <div className="secciones">
-        <Typography className="special2 texto shadows" variant="h4">
+        <nav>
+          <ul className="flexnav blanc texto spacio">
+            <li className="underline-hover"><a className="blanc" href="#habilidades">Habilidades</a></li>
+            <li className="underline-hover"><a className="blanc" href="#estudios">Estudios</a></li>
+            <li className="underline-hover"><a className="blanc" href="#proyectos">Proyectos</a></li>
+          </ul>
+        </nav>
+        <Typography className="texto" color="white" variant="h2">
+          SEAN BIENVENIDOS A MI:
+        </Typography>
+        <Typography className="texto neon-text" color="white" variant="h1">
           PORTFOLIO
         </Typography>
-        <Typography className="texto lights" variant="h6">
-          Ignacio Adrian Perez
+        <Typography className="texto" color="white" variant="h5" mt={7}>
+          Contacto:
         </Typography>
-        <Typography className="texto lights" variant="h6">
-          Desarrollador Front-end
+        <Box mt={2}>
+        <a href="https://drive.google.com/file/d/12aUbm3ffrthEJPnJMeg3w7nQCPf5KWTI/view?usp=drivesdk" target="_blank"><Button size="large" startIcon={<AccountBoxIcon />}>CV</Button></a>
+        <a href="https://w.app/VixgXJ" target="_blank"><Button size="large" startIcon={<WhatsAppIcon />}>Whatsapp</Button></a>
+        <a href="https://github.com/Ignacio08Adrian" target="_blank"><Button size="large" startIcon={<GitHubIcon />}>Github</Button></a>
+        <a href="https://www.linkedin.com/in/ignacio-perez-073348244?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app" target="_blank"><Button size="large" startIcon={<LinkedInIcon />}>Linkedin</Button></a>
+        </Box>
+        <Typography className="texto" color="white" mt={13}>
+          {" "}
+          ¡Hola! Soy Ignacio, un apasionado desarrollador Front End de 21 años.
+          Tengo una sólida base en tecnologías web fundamentales como HTML, CSS
+          y JavaScript, además de habilidades avanzadas en React. Mi objetivo es
+          crear interfaces de usuario intuitivas y atractivas, siempre buscando
+          la mejor experiencia para el usuario. Siempre estoy ansioso por
+          aprender y aceptar nuevos desafíos en el mundo del desarrollo web.
         </Typography>
-        <Typography className="texto lights" variant="h6">
-          Le deseo una agradable estadia
-        </Typography>
+        <BackToTopButton/>
       </div>
-      <div className="bgimg-1">
+      <div className="secciones2"></div>
+      <div className="bgimg-1" id="habilidades">
         <Habilidades />
       </div>
-      <div className="secciones2">
-        <div className="bloke">
-          <Typography variant="h6" color="green">
-            Fortalezas
-          </Typography>
-          <Typography color="green">Perseverancia</Typography>
-          <Typography color="green">Actitud positiva</Typography>
-          <Typography color="green">
-            con muchas ganas de aprender y mejorar
-          </Typography>
-        </div>
-        <div className="bloke">
-          <Typography variant="h6" color="red">
-            Debilidades
-          </Typography>
-          <Typography color="red">
-            falta de experiencia trabajando en equipos
-          </Typography>
-          <Typography color="red">poca experiencia en el ambito</Typography>
-          <Typography color="red">algo timido</Typography>
-        </div>
-      </div>
-      <div className="bgimg-2">
+      <div className="secciones2"></div>
+      <div className="bgimg-2" id="estudios">
         <Estudios />
       </div>
-      <div className="secciones4">Sobre Mi:</div>
+      <div className="secciones2" id="proyectos"></div>
       <div className="bgimg-3">
         <Proyectos />
       </div>

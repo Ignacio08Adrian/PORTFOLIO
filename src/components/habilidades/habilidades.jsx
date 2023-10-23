@@ -6,7 +6,7 @@ function Habilidades() {
   return (
     <>
       <div>
-        <Typography className="full-color jello-vertical" variant="h3">
+        <Typography className="neon-text" variant="h3">
           HABILIDADES
         </Typography>
         <Typography variant="h5" className="blanc">
