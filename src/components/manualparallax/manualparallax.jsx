@@ -31,7 +31,7 @@ export function ManualParallax() {
           Contacto:
         </Typography>
         <Box mt={2}>
-        <a href="https://drive.google.com/file/d/12aUbm3ffrthEJPnJMeg3w7nQCPf5KWTI/view?usp=drivesdk" target="_blank"><Button size="large" startIcon={<AccountBoxIcon />}>CV</Button></a>
+        <a href="https://drive.google.com/file/d/13tt2KFUbs32pFPbxTgNol1YLC2TzGQm9/view?usp=drivesdk" target="_blank"><Button size="large" startIcon={<AccountBoxIcon />}>CV</Button></a>
         <a href="https://w.app/VixgXJ" target="_blank"><Button size="large" startIcon={<WhatsAppIcon />}>Whatsapp</Button></a>
         <a href="https://github.com/Ignacio08Adrian" target="_blank"><Button size="large" startIcon={<GitHubIcon />}>Github</Button></a>
         <a href="https://www.linkedin.com/in/ignacio-perez-073348244?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app" target="_blank"><Button size="large" startIcon={<LinkedInIcon />}>Linkedin</Button></a>
